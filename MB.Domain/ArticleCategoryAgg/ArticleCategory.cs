@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
+using MB.Domain.ArticleAgg;
 using MB.Domain.ArticleCategoryAgg.Exceptions;
 using MB.Domain.ArticleCategoryAgg.Services;
 
@@ -11,6 +13,7 @@ namespace MB.Domain.ArticleCategoryAgg
         public string Title { get; private set; }
         public bool IsDeleted { get; private set; }
         public DateTime CreationDate { get; private set; }
+        public ICollection<Article> Articles { get; set; }
 
         public ArticleCategory(string title, IArticleCategoryValidatorService validatorService)
         {
@@ -20,6 +23,7 @@ namespace MB.Domain.ArticleCategoryAgg
             Title = title;
             IsDeleted = false;
             CreationDate = DateTime.Now;
+            Articles = new List<Article>();
         }
 
         public void Rename(string Title)
