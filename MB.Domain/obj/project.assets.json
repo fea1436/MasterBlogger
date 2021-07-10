@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "MB.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MB.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Application.Contract.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MB.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../MB.Application.Contract/MB.Application.Contract.csproj",
+      "msbuildProject": "../MB.Application.Contract/MB.Application.Contract.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "MB.Application.Contract >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {},
@@ -41,7 +60,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Programming\\Atriya_MVC\\00_MasterBlogSolution\\Solution\\MasterBlogger\\MasterBlogger\\MB.Application.Contract\\MB.Application.Contract.csproj": {
+              "projectPath": "D:\\Programming\\Atriya_MVC\\00_MasterBlogSolution\\Solution\\MasterBlogger\\MasterBlogger\\MB.Application.Contract\\MB.Application.Contract.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

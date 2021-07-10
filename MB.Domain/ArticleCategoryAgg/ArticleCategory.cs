@@ -9,11 +9,15 @@ namespace MB.Domain.ArticleCategoryAgg
 {
     public class ArticleCategory
     {
-        public int ID { get; private set; }
+        public long ID { get; private set; }
         public string Title { get; private set; }
         public bool IsDeleted { get; private set; }
         public DateTime CreationDate { get; private set; }
         public ICollection<Article> Articles { get; set; }
+
+        protected ArticleCategory()
+        {
+        }
 
         public ArticleCategory(string title, IArticleCategoryValidatorService validatorService)
         {

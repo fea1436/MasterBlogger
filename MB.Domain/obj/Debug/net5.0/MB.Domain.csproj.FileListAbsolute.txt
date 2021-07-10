@@ -22,3 +22,6 @@ D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlo
 D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.dll
 D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Domain\obj\Debug\net5.0\ref\MB.Domain.dll
 D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.pdb
+D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Application.Contract.dll
+D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Application.Contract.pdb
+D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.CopyComplete

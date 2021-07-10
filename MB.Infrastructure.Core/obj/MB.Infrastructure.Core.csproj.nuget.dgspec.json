@@ -160,7 +160,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Programming\\Atriya_MVC\\00_MasterBlogSolution\\Solution\\MasterBlogger\\MasterBlogger\\MB.Application.Contract\\MB.Application.Contract.csproj": {
+                "projectPath": "D:\\Programming\\Atriya_MVC\\00_MasterBlogSolution\\Solution\\MasterBlogger\\MasterBlogger\\MB.Application.Contract\\MB.Application.Contract.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

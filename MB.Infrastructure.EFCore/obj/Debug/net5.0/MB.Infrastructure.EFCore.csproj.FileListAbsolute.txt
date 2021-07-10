@@ -34,3 +34,5 @@ D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlo
 D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net5.0\ref\MB.Infrastructure.EFCore.dll
 D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.pdb
 D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.genruntimeconfig.cache
+D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net5.0\MB.Application.Contract.dll
+D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Infrastructure.EFCore\bin\Debug\net5.0\MB.Application.Contract.pdb
