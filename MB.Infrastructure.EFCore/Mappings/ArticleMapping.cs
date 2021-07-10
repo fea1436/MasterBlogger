@@ -11,9 +11,9 @@ namespace MB.Infrastructure.EFCore.Mappings
             builder.ToTable("Articles");
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Title).HasMaxLength(255);
-            builder.Property(x => x.Content).HasMaxLength(255);
+            builder.Property(x => x.Content);
             builder.Property(x => x.ShortDescription).HasMaxLength(255);
-            builder.Property(x => x.Image);
+            builder.Property(x => x.Image).HasMaxLength(255);
             builder.Property(x => x.IsDeleted);
             builder.Property(x => x.CreationDate);
 

@@ -175,3 +175,4 @@ D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlo
 D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Presentation.MVVM\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\_ViewStart.cshtml.g.cs
 D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Presentation.MVVM\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\Edit.cshtml.g.cs
 D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Presentation.MVVM\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\List.cshtml.g.cs
+D:\Programming\Atriya_MVC\00_MasterBlogSolution\Solution\MasterBlogger\MasterBlogger\MB.Presentation.MVVM\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\Create.cshtml.g.cs

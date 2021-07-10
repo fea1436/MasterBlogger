@@ -21,7 +21,7 @@ namespace MB.Infrastructure.EFCore.Migrations
                 .HasAnnotation("ProductVersion", "5.0.7")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("MB.Domain.ArticleCategoryAgg.ArticleCategory", b =>
+            modelBuilder.Entity("MB.Domain.ArticleCategoryAgg.ArticleCategoryId", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
