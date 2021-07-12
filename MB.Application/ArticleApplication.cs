@@ -21,8 +21,30 @@ namespace MB.Application
 
         public void Create(CreateArticleCommand command)
         {
-            var article = new Article(command.Title, command.ShortDescription, command.Iamge, command.Content, command.ArticleCategoryId);
+            var article = new Article(command.Title, command.ShortDescription, command.Image, command.Content,
+                command.ArticleCategoryId);
             _articleRepository.Add(article);
+        }
+
+        public void Edit(EditArticleCommand command)
+        {
+            var article = _articleRepository.Get(command.Id);
+            article.Edit(command.Title, command.ShortDescription, command.Image, command.Content, command.ArticleCategoryId);
+            _articleRepository.Save();
+        }
+
+        public EditArticleCommand Get(long Id)
+        {
+            var article = _articleRepository.Get(Id);
+            return new EditArticleCommand()
+            {
+                Id = article.Id,
+                Title = article.Title,
+                Image = article.Image,
+                ShortDescription = article.ShortDescription,
+                Content = article.Content,
+                ArticleCategoryId = article.ArticleCategoryId
+            }
         }
     }
 }

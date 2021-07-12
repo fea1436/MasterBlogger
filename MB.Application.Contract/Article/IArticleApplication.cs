@@ -7,5 +7,7 @@ namespace MB.Application.Contract.Article
     {
         List<ArticleViewModel> GetList();
         void Create(CreateArticleCommand command);
+        void Edit(EditArticleCommand command);
+        EditArticleCommand Get(long Id);
     }
 }

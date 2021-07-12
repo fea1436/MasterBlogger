@@ -36,8 +36,6 @@ namespace MB.Domain.ArticleAgg
             ShortDescription = shortDescription;
             Image = image;
             Content = content;
-            IsDeleted = false;
-            CreationDate = DateTime.Now;
             ArticleCategoryId = articleCategoryId;
         }
     }
