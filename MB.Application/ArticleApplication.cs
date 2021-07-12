@@ -44,7 +44,7 @@ namespace MB.Application
                 ShortDescription = article.ShortDescription,
                 Content = article.Content,
                 ArticleCategoryId = article.ArticleCategoryId
-            }
+            };
         }
     }
 }
