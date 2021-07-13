@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\Atriya_MVC\\00_MasterBlogSolution\\Solution\\MasterBlogger\\MasterBlogger\\MB.Application.Contract\\MB.Application.Contract.csproj": {}
+    "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Application.Contract\\MB.Application.Contract.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\Atriya_MVC\\00_MasterBlogSolution\\Solution\\MasterBlogger\\MasterBlogger\\MB.Application.Contract\\MB.Application.Contract.csproj": {
+    "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Application.Contract\\MB.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Atriya_MVC\\00_MasterBlogSolution\\Solution\\MasterBlogger\\MasterBlogger\\MB.Application.Contract\\MB.Application.Contract.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Application.Contract\\MB.Application.Contract.csproj",
         "projectName": "MB.Application.Contract",
-        "projectPath": "D:\\Programming\\Atriya_MVC\\00_MasterBlogSolution\\Solution\\MasterBlogger\\MasterBlogger\\MB.Application.Contract\\MB.Application.Contract.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Atriya_MVC\\00_MasterBlogSolution\\Solution\\MasterBlogger\\MasterBlogger\\MB.Application.Contract\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Application.Contract\\MB.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

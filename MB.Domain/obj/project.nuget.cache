@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RBN4xn70zVF7aaL9mEax3Ois16kAiYPzUH+1EbH2BNAguAdo88WxXxJxDJ8m3fCKRIwuurttmO7e7WMhrrl5Qg==",
+  "dgSpecHash": "jy4iGMsiL69YkEpXQaIg/nx63Eb4n4gbnFkvjJ95SawQ2DXaJVd5/8g8YsWWpIAj63fgB1sNCroJ+Kx62y4oYQ==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\Atriya_MVC\\00_MasterBlogSolution\\Solution\\MasterBlogger\\MasterBlogger\\MB.Domain\\MB.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Domain\\MB.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
