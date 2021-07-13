@@ -2,16 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Humanizer.Core/2.8.26": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Humanizer.dll": {}
-        }
-      },
-      "Microsoft.CSharp/4.7.0": {
+      "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -123,23 +114,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Design/5.0.7": {
-        "type": "package",
-        "dependencies": {
-          "Humanizer.Core": "2.8.26",
-          "Microsoft.CSharp": "4.7.0",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.7"
-        },
-        "compile": {
-          "lib/netstandard2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {}
-        },
-        "build": {
-          "build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/5.0.7": {
@@ -1508,20 +1482,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "MB.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "MB.Application.Contract": "1.0.0",
-          "MB.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/MB.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MB.Application.dll": {}
-        }
-      },
       "MB.Application.Contract/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1545,23 +1505,6 @@
           "bin/placeholder/MB.Domain.dll": {}
         }
       },
-      "MB.Infrastructure.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "MB.Application": "1.0.0",
-          "MB.Domain": "1.0.0",
-          "MB.Infrastructure.EFCore": "1.0.0",
-          "MB.Infrastructure.Query": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
-        },
-        "compile": {
-          "bin/placeholder/MB.Infrastructure.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MB.Infrastructure.Core.dll": {}
-        }
-      },
       "MB.Infrastructure.EFCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1576,43 +1519,14 @@
         "runtime": {
           "bin/placeholder/MB.Infrastructure.EFCore.dll": {}
         }
-      },
-      "MB.Infrastructure.Query/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "MB.Infrastructure.EFCore": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/MB.Infrastructure.Query.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MB.Infrastructure.Query.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "Humanizer.Core/2.8.26": {
-      "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
+    "Microsoft.CSharp/4.5.0": {
+      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
-      "path": "humanizer.core/2.8.26",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "humanizer.core.2.8.26.nupkg.sha512",
-        "humanizer.core.nuspec",
-        "lib/netstandard1.0/Humanizer.dll",
-        "lib/netstandard1.0/Humanizer.xml",
-        "lib/netstandard2.0/Humanizer.dll",
-        "lib/netstandard2.0/Humanizer.xml",
-        "logo.png"
-      ]
-    },
-    "Microsoft.CSharp/4.7.0": {
-      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
-      "type": "package",
-      "path": "microsoft.csharp/4.7.0",
+      "path": "microsoft.csharp/4.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1625,7 +1539,6 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
-        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -1635,7 +1548,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.4.5.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -1799,21 +1712,6 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.5.0.7.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Design/5.0.7": {
-      "sha512": "r/0Jkp7HCzWSXdC79jwK4JKNw16s88E23U46rCu+I1zYYXg+w4TR/S9zAkQNHiNkaCFyGUod/b5ZoQCI5eqJ2A==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.design/5.0.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props",
-        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll",
-        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.5.0.7.nupkg.sha512",
-        "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/5.0.7": {
@@ -5834,11 +5732,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "MB.Application/1.0.0": {
-      "type": "project",
-      "path": "../MB.Application/MB.Application.csproj",
-      "msbuildProject": "../MB.Application/MB.Application.csproj"
-    },
     "MB.Application.Contract/1.0.0": {
       "type": "project",
       "path": "../MB.Application.Contract/MB.Application.Contract.csproj",
@@ -5849,26 +5742,15 @@
       "path": "../MB.Domain/MB.Domain.csproj",
       "msbuildProject": "../MB.Domain/MB.Domain.csproj"
     },
-    "MB.Infrastructure.Core/1.0.0": {
-      "type": "project",
-      "path": "../MB.Infrastructure.Core/MB.Infrastructure.Core.csproj",
-      "msbuildProject": "../MB.Infrastructure.Core/MB.Infrastructure.Core.csproj"
-    },
     "MB.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "path": "../MB.Infrastructure.EFCore/MB.Infrastructure.EFCore.csproj",
       "msbuildProject": "../MB.Infrastructure.EFCore/MB.Infrastructure.EFCore.csproj"
-    },
-    "MB.Infrastructure.Query/1.0.0": {
-      "type": "project",
-      "path": "../MB.Infrastructure.Query/MB.Infrastructure.Query.csproj",
-      "msbuildProject": "../MB.Infrastructure.Query/MB.Infrastructure.Query.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "MB.Infrastructure.Core >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.Design >= 5.0.7"
+      "MB.Infrastructure.EFCore >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5878,11 +5760,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Presentation.MVVM\\MB.Presentation.MVVM.csproj",
-      "projectName": "MB.Presentation.MVVM",
-      "projectPath": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Presentation.MVVM\\MB.Presentation.MVVM.csproj",
+      "projectUniqueName": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Infrastructure.Query\\MB.Infrastructure.Query.csproj",
+      "projectName": "MB.Infrastructure.Query",
+      "projectPath": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Infrastructure.Query\\MB.Infrastructure.Query.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Presentation.MVVM\\obj\\",
+      "outputPath": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Infrastructure.Query\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5903,8 +5785,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj": {
-              "projectPath": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj"
+            "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj": {
+              "projectPath": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj"
             }
           }
         }
@@ -5918,14 +5800,6 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[5.0.7, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -5937,9 +5811,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
