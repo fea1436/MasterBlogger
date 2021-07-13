@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MB.Infrastructure.EFCore.Migrations
 {
     [DbContext(typeof(MasterBloggerContext))]
-    [Migration("20210710204033_Create_Article_Table")]
-    partial class Create_Article_Table
+    [Migration("20210713034650_CreateDatabase_Article_ArticleCategory")]
+    partial class CreateDatabase_Article_ArticleCategory
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -32,14 +32,14 @@ namespace MB.Infrastructure.EFCore.Migrations
                         .HasColumnType("bigint");
 
                     b.Property<string>("Content")
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreationDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Image")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -59,7 +59,7 @@ namespace MB.Infrastructure.EFCore.Migrations
                     b.ToTable("Articles");
                 });
 
-            modelBuilder.Entity("MB.Domain.ArticleCategoryAgg.ArticleCategoryId", b =>
+            modelBuilder.Entity("MB.Domain.ArticleCategoryAgg.ArticleCategory", b =>
                 {
                     b.Property<long>("ID")
                         .ValueGeneratedOnAdd()
@@ -83,16 +83,16 @@ namespace MB.Infrastructure.EFCore.Migrations
 
             modelBuilder.Entity("MB.Domain.ArticleAgg.Article", b =>
                 {
-                    b.HasOne("MB.Domain.ArticleCategoryAgg.ArticleCategoryId", "ArticleCategoryId")
+                    b.HasOne("MB.Domain.ArticleCategoryAgg.ArticleCategory", "ArticleCategory")
                         .WithMany("Articles")
                         .HasForeignKey("ArticleCategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("ArticleCategoryId");
+                    b.Navigation("ArticleCategory");
                 });
 
-            modelBuilder.Entity("MB.Domain.ArticleCategoryAgg.ArticleCategoryId", b =>
+            modelBuilder.Entity("MB.Domain.ArticleCategoryAgg.ArticleCategory", b =>
                 {
                     b.Navigation("Articles");
                 });

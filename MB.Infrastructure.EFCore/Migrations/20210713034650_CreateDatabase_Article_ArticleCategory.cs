@@ -3,19 +3,24 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MB.Infrastructure.EFCore.Migrations
 {
-    public partial class Create_Article_Table : Migration
+    public partial class CreateDatabase_Article_ArticleCategory : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AlterColumn<long>(
-                name: "ID",
-                table: "ArticleCategories",
-                type: "bigint",
-                nullable: false,
-                oldClrType: typeof(int),
-                oldType: "int")
-                .Annotation("SqlServer:Identity", "1, 1")
-                .OldAnnotation("SqlServer:Identity", "1, 1");
+            migrationBuilder.CreateTable(
+                name: "ArticleCategories",
+                columns: table => new
+                {
+                    ID = table.Column<long>(type: "bigint", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Title = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
+                    IsDeleted = table.Column<bool>(type: "bit", nullable: false),
+                    CreationDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ArticleCategories", x => x.ID);
+                });
 
             migrationBuilder.CreateTable(
                 name: "Articles",
@@ -25,8 +30,8 @@ namespace MB.Infrastructure.EFCore.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Title = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     ShortDescription = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
-                    Image = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Content = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
+                    Image = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
+                    Content = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false),
                     CreationDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ArticleCategoryId = table.Column<long>(type: "bigint", nullable: false)
@@ -53,15 +58,8 @@ namespace MB.Infrastructure.EFCore.Migrations
             migrationBuilder.DropTable(
                 name: "Articles");
 
-            migrationBuilder.AlterColumn<int>(
-                name: "ID",
-                table: "ArticleCategories",
-                type: "int",
-                nullable: false,
-                oldClrType: typeof(long),
-                oldType: "bigint")
-                .Annotation("SqlServer:Identity", "1, 1")
-                .OldAnnotation("SqlServer:Identity", "1, 1");
+            migrationBuilder.DropTable(
+                name: "ArticleCategories");
         }
     }
 }

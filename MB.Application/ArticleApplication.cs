@@ -46,5 +46,19 @@ namespace MB.Application
                 ArticleCategoryId = article.ArticleCategoryId
             };
         }
+
+        public void Remove(long Id)
+        {
+            var article = _articleRepository.Get(Id);
+            article.Remove();
+            _articleRepository.Save();
+        }
+
+        public void Activate(long Id)
+        {
+            var article = _articleRepository.Get(Id);
+            article.Activate();
+            _articleRepository.Save();
+        }
     }
 }
