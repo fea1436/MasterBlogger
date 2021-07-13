@@ -5859,11 +5859,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Presentation.MVVM\\MB.Presentation.MVVM.csproj",
+      "projectUniqueName": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Presentation.MVVM\\MB.Presentation.MVVM.csproj",
       "projectName": "MB.Presentation.MVVM",
-      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Presentation.MVVM\\MB.Presentation.MVVM.csproj",
+      "projectPath": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Presentation.MVVM\\MB.Presentation.MVVM.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Presentation.MVVM\\obj\\",
+      "outputPath": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Presentation.MVVM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5884,8 +5884,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj"
+            "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj": {
+              "projectPath": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj"
             }
           }
         }

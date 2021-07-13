@@ -5838,11 +5838,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj",
+      "projectUniqueName": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj",
       "projectName": "MB.Infrastructure.EFCore",
-      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj",
+      "projectPath": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Infrastructure.EFCore\\MB.Infrastructure.EFCore.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Infrastructure.EFCore\\obj\\",
+      "outputPath": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Infrastructure.EFCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5863,8 +5863,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Domain\\MB.Domain.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Domain\\MB.Domain.csproj"
+            "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Domain\\MB.Domain.csproj": {
+              "projectPath": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Domain\\MB.Domain.csproj"
             }
           }
         }

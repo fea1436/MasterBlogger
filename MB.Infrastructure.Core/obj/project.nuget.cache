@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uzx6g5KH+/+4EIZfC67uAn1/dwZJnEYkvFsEm0mAihl1b4q1M6frshS6bZ0/Thkw3u9Xt9C7pkv9jLnZu688Qw==",
+  "dgSpecHash": "BfDhLD+VT61eCO5ZgA+htCpcH/StHhh9sqcHDxgyiCCSxI/62l3vVmH16+IQ14s9DqqSiWP1sX5uRWn8ZlGetA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\MasterBlogger\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj",
+  "projectFilePath": "D:\\Programming\\Atriya\\MySolutions\\MasterBlogger\\MB.Infrastructure.Core\\MB.Infrastructure.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

@@ -9,5 +9,6 @@ namespace MB.Domain.ArticleAgg
         void Add(Article entity);
         Article Get(long Id);
         void Save();
+        bool Exists(string title);
     }
 }
